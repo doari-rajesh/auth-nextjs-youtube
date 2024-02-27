@@ -29,7 +29,7 @@ export default function SignUpPage() {
     }
   }, [user]);
 
-  const onSignup = async (e) => {
+  const onSignup = async (e:any) => {
     e.preventDefault();
     console.log(user);
     try {
