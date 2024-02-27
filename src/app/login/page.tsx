@@ -13,7 +13,7 @@ export default function LoginPage() {
     password: "",
   });
 
-  const onLogin = async (e) => {
+  const onLogin = async (e:any) => {
     e.preventDefault();
     console.log(user);
     try {
